@@ -1,7 +1,7 @@
 -- Basic settings 
 vim.g.mapleader = " "  -- Space as leader key
 vim.opt.number = true  -- Line numbers
-
+vim.o.relativenumber = true -- Relative line numbers
 -- Initializing Lazy.nvim (plugin manager)
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
