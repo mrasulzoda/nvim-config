@@ -12,7 +12,7 @@ mv ~/.config/nvim ~/.config/nvim.bak
 ```
 2. Clone this repo:
 ```bash
-git clone https://github.com/ВАШ_НИК/nvim-config.git ~/.config/nvim
+git clone https://github.com/mrasulzoda/nvim-config.git ~/.config/nvim
 ```
 3. Start Neovim and wait for plugins to install
 ```bash
