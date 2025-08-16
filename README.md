@@ -4,6 +4,7 @@
 - File tree (nvim-tree)
 - Python syntax highlighting
 - Custom keybindings
+- Auto-closing brackets and tags
 
 ## Installation
 1. Backup your old config:
