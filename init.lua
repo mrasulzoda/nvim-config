@@ -73,6 +73,17 @@ require("lazy").setup({
         hi @parameter guifg=#50FA7B  " Green parameters
       ]])
     end
+  },
+  
+  -- Auto-closing brackets and tags
+  {
+    "windwp/nvim-autopairs",
+    config = function()
+      require("nvim-autopairs").setup({
+        check_ts = true,  -- Use treesitter
+        fast_wrap = {},    -- Enable fast wrap
+      })
+    end
   }
 })
 
